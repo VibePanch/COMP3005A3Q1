@@ -1,3 +1,5 @@
+CREATE DATABASE Student_Management
+
 CREATE TABLE students(
 student_id SERIAL PRIMARY KEY,
 first_name TEXT NOT NULL, 
