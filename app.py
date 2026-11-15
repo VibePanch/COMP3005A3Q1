@@ -2,7 +2,8 @@ import psycopg2
 import datetime
 import getpass
 
-
+# Name: Vaibhav Panchanadam
+# Student Number: 101311133
 '''
 Note: It is possible to override the entering of username, password, etc. information by commenting out lines 26 to 29 of the code, and instead using the static variables that are defined here.
 '''

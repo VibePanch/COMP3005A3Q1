@@ -19,3 +19,6 @@ Assignment 3 for COMP3005
 2. addStudent(first_name, last_name, email, enrollment_date)- Adds a student with the information to the students table
 3. updateStudentEmail(student_id, new_email)- Updates the email of the student with the given student id present in the students table
 4. deleteStudent(student_id)- Deletes the student with the provided student id in the students table
+
+## Video Demonstration
+Link to youtube video can be found here: https://youtu.be/FJ8zIz1KrHo
