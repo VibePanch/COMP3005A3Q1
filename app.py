@@ -1,5 +1,6 @@
 import psycopg2
 import datetime
+import getpass
 
 
 '''
@@ -23,7 +24,7 @@ def main():
     global connection
     #prompt user for information related to postgres
     user = str(input("Enter your postgres username: "))
-    password = str(input("Enter your postgres password: "))
+    password = str(getpass.getpass("Enter your postgres password: "))
     host = str(input("Enter your postgres host information: "))
     port = int(input("Enter your postgres port: "))
 
@@ -61,7 +62,7 @@ def main():
                     print("Error: Failed to get students!", e)
             
             case "2":
-                info = input("Enter the student's first name, last name, email, and enrollment date (Year-month-day) separated by commas: ")
+                info = input("Enter the student's first name, last name, email, and enrollment date (Year-month-day format, with dashes) separated by commas: ")
                 info = info.split(",")
                 try:
                     addStudent(info[0].strip(), info[1].strip(), info[2].strip(), info[3].strip())
