@@ -4,7 +4,7 @@ import getpass
 
 
 '''
-Note: It is possible to override the entering of username, password, etc. information by commenting out lines 25 to 29 of the code, and instead using the static variables that are defined here.
+Note: It is possible to override the entering of username, password, etc. information by commenting out lines 26 to 29 of the code, and instead using the static variables that are defined here.
 '''
 host = "localHost"
 port = 5432
