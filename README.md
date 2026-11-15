@@ -21,4 +21,4 @@ Assignment 3 for COMP3005
 4. deleteStudent(student_id)- Deletes the student with the provided student id in the students table
 
 ## Video Demonstration
-Link to youtube video can be found here: https://youtu.be/FJ8zIz1KrHo
+Link to youtube video can be found here: https://youtu.be/oXlBMecHRcE?si=BJEaU3SwC2t3AUld
